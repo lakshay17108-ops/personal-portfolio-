@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anupam Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="container header-container">
+
+        <h2 class="logo">Lakshay</h2>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#journey">Journey</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </div>
+
+</header>
+
+
+<!-- HERO -->
+
+<section class="hero">
+
+    <div class="container hero-container">
+
+        <div class="hero-text">
+
+            <h1>
+                Hi, I'm <span class="highlight">Lakshay</span>
+            </h1>
+
+            <p>
+                BTech AI/ML Student | Aspiring AI Engineer & Backend Developer
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="Lakshay.docx" class="btn">Download Resume</a>
+
+                <a href="https://github.com/lakshay17108-ops" target="_blank" class="btn secondary">
+                    GitHub
+                </a>
+
+                <a href="https://www.linkedin.com/in/lakshay-aggarwal-59b84b368/" target="_blank" class="btn secondary">
+                    LinkedIn
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img src="protfolio1/WhatsApp Image 2026-03-31 at 4.32.00 PM.jpeg" alt="profile">
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- STATS -->
+
+<section class="stats">
+
+    <div class="container stats-container">
+
+        <div class="stat">
+            <h3>6+</h3>
+            <p>Projects Built</p>
+        </div>
+
+        <div class="stat">
+            <h3>10+</h3>
+            <p>Technologies</p>
+        </div>
+
+        <div class="stat">
+            <h3>25+</h3>
+            <p>GitHub Repositories</p>
+        </div>
+
+        <div class="stat">
+            <h3>500+</h3>
+            <p>Hours of Coding</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section id="about" class="section">
+
+    <div class="container">
+
+        <h2>About Me</h2>
+
+        <p class="about-text">
+            I'm Lakshay, a BTech student specializing in Artificial Intelligence and Machine Learning.
+            I enjoy building full-stack web applications using Python and Flask while continuously
+            improving my programming and problem-solving skills.
+
+            My goal is to become  AI engineer capable of building intelligent and scalable systems.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- SKILLS -->
+
+<section id="skills" class="section">
+
+    <div class="container">
+
+        <h2>Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="card">HTML</div>
+            <div class="card">CSS</div>
+            <div class="card">JavaScript</div>
+            <div class="card">React</div>
+            <div class="card">Python</div>
+            <div class="card">Flask</div>
+            <div class="card">SQL</div>
+            <div class="card">Git</div>
+            <div class="card">REST APIs</div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- PROJECTS -->
+
+<section id="projects" class="section">
+
+    <div class="container">
+
+        <h2>Projects</h2>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+
+                <h3>Smart Event Dashboard</h3>
+
+                <ul>
+                    <li>CRUD operations</li>
+                    <li>Event management</li>
+                
+                </ul>
+
+                <div class="project-links">
+                    <a href="https://github.com/lakshay17108-ops/smart-event-dashboard-" target="_blank">GitHub</a>
+                    <a href="https://magenta-hummingbird-f75bf4.netlify.app/" target="_blank">Live Demo</a>
+                </div>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <h3>Campus Maintenance Portal</h3>
+
+                <ul>
+                    <li>Complaint ticket system</li>
+                    <li>Admin panel</li>
+                    <li>Flask + MySQL backend</li>
+                </ul>
+
+                <div class="project-links">
+                    <a href="https://github.com/lakshay17108-ops/Campus-Maintenance-Portal" target="_blank">GitHub</a>
+                    <a href="https://campus-maintenance-portal.onrender.com" target="_blank">Live Demo</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- JOURNEY -->
+
+<section id="journey" class="section">
+
+    <div class="container">
+
+        <h2>My Journey</h2>
+
+        <div class="timeline">
+
+            
+
+            <div class="timeline-item">
+                <h3>Aug 2025</h3>
+                <p>Started B.Tech. in Artificial Intelligence and Machie Learning.</p>
+            </div>
+
+            <div class="timeline-item">
+                <h3>Oct 2025</h3>
+                <p>Began learning CSS for frontend designing.</p>
+            </div>
+
+            <div class="timeline-item">
+                <h3>Jan 2026</h3>
+                <p>Began learning javascript for frontend logic writing.</p>
+            </div>
+
+            <div class="timeline-item">
+                <h3>Mar 2026</h3>
+                <p>Began learning flask for backend development. </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section id="contact" class="section">
+
+    <div class="container">
+
+        <h2>Contact Me</h2>
+
+        <form id="contactForm">
+
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="4" placeholder="Your Message" required></textarea>
+
+            <button class="btn" type="submit">
+                Send Message
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<footer>
+
+    <div class="container footer-container">
+
+        <p>© 2026 Anupam</p>
+
+        <div class="footer-links">
+
+            <a href="https://github.com/lakshay17108-ops">GitHub</a>
+            <a href="https://www.linkedin.com/in/lakshay-aggarwal-59b84b368/">LinkedIn</a>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
